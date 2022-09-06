@@ -42,6 +42,9 @@ composer dump-autoload
 npm install && npm run build
 ```
 
+## Update .env database with project location, windows system example
+>> DB_DATABASE=D:\Projects\country-state-city\database\db.sqlite
+
 ## Run migrations with seeders
 ```
 php artisan migrate --seed
@@ -51,3 +54,27 @@ php artisan migrate --seed
 ```
 php artisan serve
 ```
+
+# Api routes
+
+## World everything Countries States and Cities
+```
+http://localhost:8000/api
+```
+
+## Only Countries name and id
+```
+http://localhost:8000/api/countries
+```
+
+## Get states by country id, example for Colombia
+```
+http://localhost:8000/api/statesbycountry/1
+```
+
+## Get cities by state id, example for Antioquia Colombia
+```
+http://localhost:8000/api/citiesbystate/145
+```
+
+# Feel free to send, pull requests, messages and report issues 💫
