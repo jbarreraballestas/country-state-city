@@ -55,6 +55,11 @@ php artisan migrate --seed
 php artisan serve
 ```
 
+# Default web route is Laravel livewire example with database
+```
+http://localhost:8000/
+```
+
 # Api routes
 
 ## World everything Countries States and Cities
