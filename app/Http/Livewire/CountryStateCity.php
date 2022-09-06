@@ -17,4 +17,10 @@ class CountryStateCity extends Component
         $cities = City::where('state_id',$this->state_id)->get();
         return view('livewire.country-state-city',['countries'=>$countries,'cities'=>$cities,'states'=>$states]);
     }
+    public function updatingCountryId(){
+        $this->reset(['state_id','city_id']);
+    }
+    public function updatingStateId(){
+        $this->reset(['city_id']);
+    }
 }

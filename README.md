@@ -22,6 +22,11 @@ cd country-state-city
 > ```
 >>>
 
+## Generate app key
+```
+php artisan key:generate
+```
+
 ## Install dependencies
 ```
 composer install
