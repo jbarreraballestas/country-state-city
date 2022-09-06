@@ -43,7 +43,7 @@ npm install && npm run build
 ```
 
 ## Update .env database with project location, windows system example
->>> DB_DATABASE=D:\Projects\country-state-city\database\db.sqlite
+> DB_DATABASE=D:\Projects\country-state-city\database\db.sqlite
 
 ## Run migrations with seeders
 ```
