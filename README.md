@@ -42,4 +42,7 @@ npm install && npm run build
 php artisan migrate --seed
 ```
 
-## 
+## Run project 
+```
+php artisan serve
+```
