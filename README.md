@@ -77,4 +77,4 @@ http://localhost:8000/api/statesbycountry/1
 http://localhost:8000/api/citiesbystate/145
 ```
 
-# Feel free to send, pull requests, messages and report issues 💫
+# Feel free to send pull requests, messages and report issues 💫
