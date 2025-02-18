@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Livewire\CountryStateCity;
+use App\Livewire\CountryStateCity;
 use Illuminate\Support\Facades\Route;
 
 /*
